@@ -53,7 +53,7 @@ const handleLogout = async () => {
             class="relative inline-flex h-9 w-9 items-center justify-center rounded-full"
           >
             <img
-              src="/img/icons/location/flat_shop.svg"
+              src="/img/icons/SCIcon.svg"
               class="max-w-full rounded-full object-cover shadow-sm dark:border-transparent"
               alt=""
             />
@@ -77,7 +77,7 @@ const handleLogout = async () => {
               class="relative mx-auto flex h-20 w-20 items-center justify-center rounded-full"
             >
               <img
-                src="/img/icons/location/flat_shop.svg"
+                src="/img/icons/SCIcon.svg"
                 class="max-w-full rounded-full object-cover shadow-sm dark:border-transparent"
                 alt=""
               />
