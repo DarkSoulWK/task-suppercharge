@@ -17,8 +17,7 @@ export default defineNuxtConfig({
 		],
 		'@pinia-plugin-persistedstate/nuxt',
 		'@vueuse/nuxt',
-		'@nuxtjs/seo',
-		'@nuxt/image',
+		'@nuxtjs/seo'
 	],
 
 	css: [
