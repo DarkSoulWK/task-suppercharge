@@ -33,16 +33,17 @@ const statics = [
 ];
 
 const colors = [
-  "bg-red-500",
-  "bg-blue-500",
-  "bg-green-500",
-  "bg-yellow-500",
-  "bg-purple-500",
-  "bg-pink-500",
+  { "Total Companies": "text-blue-500" },
+  { "Total Tickets": "text-green-500" },
+  { "Team Pending": "text-yellow-500" },
+  { "In progress": "text-yellow-500" },
+  { "Client Pending": "text-red-500" },
+  { "Completed": "text-green-500" },
 ];
 
 const colorStatNumber = (name: string) => {
-  return colors[name];
+    const color = colors.find((item) => item[name]);
+    return color ? color[name] : "text-gray-500";
 };
 </script>
 
